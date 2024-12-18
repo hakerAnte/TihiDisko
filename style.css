@@ -108,15 +108,16 @@ hr{
 @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
+      padding: 0px;
     }
     .flex-item-right {
-        padding: 10px;
-        flex: 50%;
+        padding: 0px;
+        flex: 100%;
         margin-left: 0px;
       }
       .flex-item-left {
-        padding: 10px;
-        flex: 50%;
+        padding: 0px;
+        flex: 100%;
         border-style: solid;
         border-color: black;
         margin-right: 0px;
