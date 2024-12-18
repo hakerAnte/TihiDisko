@@ -1,0 +1,124 @@
+@font-face {
+    font-family: MyFont;
+    src: url(Caveat_Brush/CaveatBrush-Regular.ttf);
+}
+body{
+    background-color: bisque;
+    font-family: MyFont;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: MyFont;
+    font-size: 70px;
+    color: rgb(91, 0, 148);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: -50px;
+    font-family: MyFont;
+}
+* {
+    box-sizing: border-box;
+  }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+  margin-right: 50px;
+  border-style: solid;
+  border-color: black;
+}
+#natrag{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.navbar{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.Kontakt{
+    padding-left: 50px;
+}
+#nav{
+    margin: 70px;
+}
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+  margin-left: 50px;
+}
+.torte{
+    font-size: 30px;
+}
+.mala{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.srednja{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.velika{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.keksi{
+    text-align: center;
+    padding-bottom: 200px;
+}
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
+  }
+hr{
+    width: 50%;
+    margin-top: 50px;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-item-right {
+        padding: 10px;
+        flex: 50%;
+        margin-left: 0px;
+      }
+      .flex-item-left {
+        padding: 10px;
+        flex: 50%;
+        border-style: solid;
+        border-color: black;
+        margin-right: 0px;
+      }
+  }
