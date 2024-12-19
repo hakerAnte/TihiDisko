@@ -113,11 +113,13 @@ hr{
     .flex-item-right {
         padding: 0px;
         flex: 100%;
+        width: 100%;
         margin-left: 0px;
       }
       .flex-item-left {
         padding: 0px;
         flex: 100%;
+        width: 100%;
         border-style: solid;
         border-color: black;
         margin-right: 0px;
