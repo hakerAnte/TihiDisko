@@ -105,6 +105,10 @@ hr{
     width: 50%;
     margin-top: 50px;
 }
+img{
+    width: 40%;
+    padding-top: 150px;
+}
 @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
@@ -123,5 +127,8 @@ hr{
         border-style: solid;
         border-color: black;
         margin-right: 0px;
+      }
+      img{
+        width: 80%;
       }
   }
